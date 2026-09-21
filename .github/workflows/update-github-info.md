@@ -16,6 +16,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     draft: false
@@ -29,6 +30,7 @@ Use the web-fetch tool to read:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
 Review those sources and update `site/content/github-info.md` with accurate, concise information that reflects the latest relevant GitHub updates. Preserve the existing structure and writing style, and make only focused changes supported by the sources.
 
